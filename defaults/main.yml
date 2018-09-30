@@ -8,6 +8,7 @@ certbot_auto_renew_options: "--quiet --no-self-upgrade"
 
 # Parameters used when creating new Certbot certs.
 certbot_create_if_missing: false
+certbot_force_regenerate: false
 certbot_create_method: standalone
 certbot_admin_email: email@example.com
 certbot_certs: []
